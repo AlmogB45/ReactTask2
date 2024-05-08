@@ -1,22 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Pixa from './components/Pixa';
+import Query from './components/Query';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2><u>Almog's Pixa Image Search App</u></h2>
+          <Pixa />
       </header>
     </div>
   );
